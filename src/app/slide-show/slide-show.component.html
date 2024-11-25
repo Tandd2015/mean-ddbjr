@@ -1,0 +1,18 @@
+<ngb-carousel
+  #carousel
+  *ngIf="carouselImages"
+  [interval]="3000"
+  [pauseOnHover]="pauseOnHover"
+  [pauseOnFocus]="pauseOnFocus"
+  (slide)="onSlide($event)"
+>
+  <ng-template ngbSlide *ngFor="let image of carouselImages; index as i">
+    <div class="carousel-image-wrapper">
+      <img [src]="image" [alt]="carouselAlts[i]" class="carousel-image" alt="Website Carousel Picture {{i}} is not Available">
+    </div>
+    <div class="carousel-caption">
+      <h1>Terry Dockery Investigations and Security Services</h1>
+      <h4>World class rock solid law enforcement quality, Only the best for your worst investigation and security concerns.</h4>
+    </div>
+  </ng-template>
+</ngb-carousel>
