@@ -76,7 +76,6 @@ module.exports = {
       });
   },
   register(request, response) {
-    console.log('Registering and logging in admin user.');
     const upload = multer({ storage: storage, fileFilter: imageFilter }).single('profilePicture');
     upload(request, response, (error) => {
       if (request.fileValidationError) {
@@ -107,14 +106,10 @@ module.exports = {
         // const adminObject = admin.toObject();
         completeLogin(request, response, admin);
       })
-      .catch(error => {
-        const errors = Object.keys(error.errors).map(key => error.errors[key].message);
-        response.status(Http.UnprocessableEntity).json(errors);
-      });
+      .catch(error => response.status(Http.UnprocessableEntity).json(error));
     });
   },
   logout(request, response) {
-    console.log('Logging out admin user. ');
     request.session.destroy();
     response.clearCookie('adminID');
     response.clearCookie('expiration');
@@ -123,7 +118,6 @@ module.exports = {
 };
 
 function completeLogin(request, response, admin) {
-  console.log('Completing login of admin user. ');
   const adminObject = admin.toObject();
   delete admin.password;
   request.session.admin = adminObject;
