@@ -62,7 +62,7 @@ module.exports = {
     Post.find({})
       .then(postsInfo => {
         if (!postsInfo) {
-          return response.status(404).json(`No PostsInfo ${postsInfo} was found...`);
+          return response.status(404).json(`No Posts ${postsInfo} was found...`);
         }
         gfs.files.find({})
           .toArray((err, files) => {
@@ -150,7 +150,7 @@ module.exports = {
     Post.findOne({_id: postId})
       .then(postInfo => {
         if (!postInfo) {
-          return response.status(404).json(`No PostsInfo ${postsInfo} was found...`);
+          return response.status(404).json(`Post with the id: ${postId} was not found...`);
         }
         gfs.files.find({})
           .toArray((err, files) => {
@@ -186,7 +186,7 @@ module.exports = {
     Post.findOne({_id: postId})
       .then(postInfo => {
         if(!postInfo) {
-          return response.status(404).json(`File with id ${mainFileId} not found!`);
+          return response.status(404).json(`File with the id: ${mainFileId} not found!`);
         };
         gfs.files.find({_id: new mongoose.Types.ObjectId(mainFileId)})
           .toArray((err, files) => {
@@ -328,7 +328,6 @@ module.exports = {
                     videos: finishedFiles[1],
                     mainImage: finishedFiles[2][0]
                   };
-                  console.log('\noldPost',oldPost,'\nUpdated PostComplete', postComplete,'\nfinishedFiles', finishedFiles);
                   response.json(postComplete);
                 });
           })
