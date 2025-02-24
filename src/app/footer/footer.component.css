@@ -1,0 +1,333 @@
+/* svg {
+  margin: 0rem 0.25rem 0rem 0.25rem;
+} */
+div.contactEndHolder {
+  background: linear-gradient(to bottom,#434343 0%,rgb(0,0,0) 50%);
+}
+
+div#contactEndHolderCell {
+  background: linear-gradient(to top,#434343 0%,rgb(0,0,0) 50%);
+  margin-bottom: 0.2rem;
+  display: none;
+}
+
+div.svgHolder, a.svgHolder {
+  display: inline-flex;
+  width: 5rem;
+  margin: 0rem 0.25rem 0rem 0.25rem;
+}
+
+div.parentSvgHolder {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.svgHolderPH {
+  display: inline-flex;
+  width: 7rem;
+  margin: 0rem 0.25rem 0rem 0.25rem;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  filter: invert(1);
+}
+
+p.contactSectionTitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+p.contactCopyright {
+  font-size: 1.5rem;
+  color: white;
+}
+
+ul.pageEndNav {
+  padding-left: 0rem;
+}
+
+ul.pageEndNav li {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: white;
+}
+
+ul.pageEndNav li p.pageEndNavDivider {
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+div.contactAcceptFollow {
+  text-align: center;
+  padding: 0.5rem 3.5% 0.5rem 0rem;
+}
+
+div.contactPolicyHolder {
+  display: grid;
+  text-align: center;
+}
+
+div.contactSectionTitlePrecursor {
+  text-align: end;
+  position: relative;
+  right: 20%;
+}
+
+/* div#contactEndHolderCell div.contactAcceptFollow div.contactEndHolderCAFC {
+  margin: 0.5rem 0rem;
+} */
+
+/* div#contactEndHolderCell div.contactAcceptFollow div.contactEndHolderCAFR {
+  margin: 0.5rem 0rem;
+} */
+
+@media only screen and (min-width: 5566px) {
+  div.contactSectionTitlePrecursor {
+    right: 4%;
+  }
+}
+@media only screen and (max-width: 5566px) {
+  div.contactSectionTitlePrecursor {
+    right: 7%;
+  }
+}
+
+@media only screen and (max-width: 4566px) {
+  div.contactSectionTitlePrecursor {
+    right: 8%;
+  }
+}
+
+@media only screen and (max-width: 3566px) {
+  div.contactSectionTitlePrecursor {
+    right: 10%;
+  }
+}
+
+@media only screen and (max-width: 2700px) {
+  div.contactSectionTitlePrecursor {
+    right: 14%;
+  }
+}
+
+@media only screen and (max-width: 2246px) {
+  div.contactSectionTitlePrecursor {
+    right: 17%;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  div.contactSectionTitlePrecursor {
+    right: 20%;
+  }
+}
+
+@media only screen and (max-width: 1566px) {
+  div.svgHolder, a.svgHolder {
+    width: 4rem;
+  }
+  div.svgHolderPH {
+    width: 6rem;
+  }
+  p.contactSectionTitle {
+    font-size: 1.25rem;
+  }
+  ul.pageEndNav li {
+    font-size: 1.25rem;
+  }
+  ul.pageEndNav li p.pageEndNavDivider {
+    margin: 0rem 0.75rem 0rem 0.75rem;
+  }
+  p.contactCopyright {
+    font-size: 1rem;
+  }
+  div.contactSectionTitlePrecursor {
+    right: 20%;
+  }
+}
+
+@media only screen and (max-width: 1390px) {
+  div.contactSectionTitlePrecursor {
+    right: 23%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  div.svgHolder, a.svgHolder {
+    width: 3rem;
+  }
+  div.svgHolderPH {
+    width: 5rem;
+  }
+  p.contactSectionTitle {
+    font-size: 1rem;
+  }
+  ul.pageEndNav li {
+    font-size: 1rem;
+  }
+  ul.pageEndNav li p.pageEndNavDivider {
+    margin: 0rem 0.5rem 0rem 0.5rem;
+  }
+  p.contactCopyright {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  div.contactSectionTitlePrecursor {
+    right: 25%;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR {
+    padding-left: 2rem;
+  }
+  div.svgHolderPH {
+    margin: 0rem;
+  }
+}
+
+@media only screen and (max-width: 847px) {
+  /* div.parentSvgHolder {
+    margin-top: 1.5rem;
+  } */
+  div.contactSectionTitlePrecursor {
+    right: 28%;
+  }
+  div.contactAcceptFollow {
+    text-align: center;
+    padding: 0.5rem 2.5% 0.5rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 837px) {
+  div.parentSvgHolder {
+    margin-top: 1.5rem;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR p.contactSectionTitle {
+    display: flex;
+    margin-left: 0.2rem;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR a.svgHolder {
+    margin-left: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  div.contactSectionTitlePrecursor {
+    right: 32%;
+  }
+}
+
+@media only screen and (max-width: 672px) {
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR a.svgHolder {
+    margin-left: 0.9rem;
+  }
+  div.contactSectionTitlePrecursor {
+    right: 35%;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  div.svgHolderPH {
+    padding: 0.2rem;
+    width: 3.9rem;
+  }
+  div.contactSectionTitlePrecursor {
+    padding-top: 0.55rem;
+    right: 30%;
+  }
+  div.parentSvgHolder {
+    margin-top: 1.2rem;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR a.svgHolder {
+    margin-left: 0.7rem;
+    width: 3.2rem;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactWeExcept {
+    padding-right: 1.1rem;
+  }
+  /* div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR p.contactSectionTitle {
+    display: flex;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR a.svgHolder {
+    margin-left: 0.75rem;
+  } */
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  div#contactEndHolderCell {
+    display: grid;
+    /* width: 106%; */
+  }
+
+  p.contactCopyright {
+    width: 98%;
+  }
+
+  div.contactEndHolderCellTwo {
+    display: grid;
+    width: 105%;
+  }
+  div.contactEndHolderTwo {
+    width: 109%;
+  }
+
+  div.parentSvgHolder {
+    margin-top: 0rem;
+    justify-content: center;
+    padding-left: 0.6rem;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactEndHolderCAFR {
+    display: none;
+  }
+  div.contactEndHolder div.contactAcceptFollow div.contactWeExcept {
+    padding: 0rem;
+  }
+  div.contactSectionTitlePrecursor {
+    position: revert;
+    text-align: center;
+    padding-top: 0rem;
+  }
+  div.contactEndHolder div#contactAcceptFollowAlt {
+    padding-left: 4%;
+    padding-right: 0%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  ul.pageEndNav li p.pageEndNavDivider {
+    margin: 0rem 0.25rem 0rem 0.25rem;
+  }
+  div.svgHolderPH {
+    margin: 0rem 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  ul.pageEndNav li.pageEndNavDividerHolder .pageEndNavDivider {
+    display: none;
+  }
+  ul.pageEndNav li.pageEndNavDividerHolderTwo {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  div.svgHolderPH {
+    width: 3.5rem;
+  }
+
+
+  /* div#contactEndHolder {
+    width: 110%;
+    padding-left: 1rem;
+  } */
+}
+/*
+background: linear-gradient(to bottom, white 50%, #262626 51%, #262626 91%, black 92%); */

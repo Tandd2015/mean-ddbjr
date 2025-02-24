@@ -1,4 +1,38 @@
+#myMapContainer {
+  padding: 0rem 3.25rem 2rem 3rem;
+}
+
 #map {
-  height: 400px;
+  height: 40rem;
   width: 100%;
+}
+
+@media only screen and (min-width: 1617px) {
+  #map {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1616px) {
+  #map {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  #map {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  #myMapContainer {
+    padding: 0rem 2.5rem 2rem 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 591px) {
+  #myMapContainer {
+    padding: 0rem 1.45rem 2rem 1.45rem;
+  }
 }

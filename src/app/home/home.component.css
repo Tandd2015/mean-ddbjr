@@ -1,0 +1,8 @@
+.homeContainer {
+  padding: 0rem 2rem;
+}
+
+app-home {
+  width: 100%;
+  overflow: hidden;
+}

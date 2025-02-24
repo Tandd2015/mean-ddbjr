@@ -16,19 +16,21 @@ export class SlideShowComponent {
   @ViewChild('carousel', {static: true}) carousel!: NgbCarousel;
 
   public carouselImages: Array<string> = [
-    '../assets/images/pI.jpg',
-    '../assets/images/computerKeyBoard.jpg',
-    '../assets/images/pITools.jpg',
-    '../assets/images/pistols.jpg',
-    '../assets/images/agentComputer.jpg'
+    '../assets/images/1.jpg',
+    '../assets/images/2.jpg',
+    '../assets/images/3.jpg',
+    '../assets/images/4.jpg',
+    '../assets/images/5.jpg',
+    '../assets/images/6.jpg',
   ];
 
   public carouselAlts: Array<string> = [
-    'A picture of the words Private Investigator.',
-    'A picture of cyber security perspective of data and finger print.',
-    'A picture of items that a private investigator would use.',
-    'A picture of three pistols elegantly placed.',
-    'A picture of a private investigator examining forensic data evidence.'
+    'A picture of an advertisement for Dragon-Onyx Software Solutions.',
+    'A picture of an advertisement for Dragon-Onyx Software Solutions.',
+    'A picture of an advertisement for Dragon-Onyx Software Solutions.',
+    'A picture of an advertisement for Dragon-Onyx Software Solutions.',
+    'A picture of an advertisement for Dragon-Onyx Software Solutions.',
+    'A picture of an advertisement for Dragon-Onyx Software Solutions.',
   ];
 
   constructor() { }

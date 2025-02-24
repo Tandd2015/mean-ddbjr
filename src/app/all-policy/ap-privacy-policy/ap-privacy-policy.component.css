@@ -1,0 +1,647 @@
+app-footer {
+  position: relative;
+}
+
+section#privacyPolicyHolder {
+  width: 100%;
+  justify-content: flex-end;
+  display: inherit;
+  position: relative;
+}
+
+div#privacyPolicyHolderMain {
+  display: flex;
+  justify-content: space-around;
+}
+
+div#privacyPolicyHolderMainNav {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+}
+
+ul#newTableUl, br.hiddenBr {
+  display: none;
+}
+
+ul#privacyPolicyHolderMainNavTable {
+  position: sticky;
+  top: 19%;
+  list-style-type: none;
+}
+
+li.privacyPolicyHolderMainNavTableLI {
+  text-align: center;
+  padding-bottom: 0.9rem;
+}
+
+a.privacyPolicyHolderMainNavTableLIA {
+  font-size: 0.9vw;
+  background-color: white;
+  white-space: nowrap;
+}
+
+.privacyPolicyHolderMainNavTableLIH {
+  background-color: white;
+  font-size: 1.5vw;
+}
+
+div.privacyPolicyHolderMainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#privacyPolicyHolderMainInfo {
+  width: 74%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#privacyPolicyHolderMainInfoOne {
+  margin-top: 10%;
+}
+
+p.privacyPolicyHolderMainInfoContent {
+  width: 95%;
+  margin-bottom: 2%;
+  background-color: white;
+  text-align: justify;
+  white-space: pre-line;
+  font-size: 1.3vw;
+}
+
+li.privacyPolicyHolderMainInfoContent {
+  width: 95%;
+  margin-bottom: 2%;
+  background-color: white;
+  text-align: justify;
+  white-space: pre-line;
+  padding-left: 1%;
+  font-size: 1.3vw;
+}
+
+h1.privacyPolicyHolderMainInfoTitle {
+  margin-bottom: 1%;
+  width: 95%;
+  text-align: left;
+  background-color: white;
+  font-size: 1.75vw;
+  margin-left: -1%;
+}
+
+ul.privacyPolicyHolderMainInfoTables {
+  list-style-type: '♦ ';
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+div#privacyPolicyHolderMainInfoOddOne {
+  align-items: normal;
+  align-self: normal;
+  margin-left: 2.5%;
+}
+
+div#privacyPolicyHolderMainInfoOddOne ul.privacyPolicyHolderMainInfoTables {
+  padding-left: 2.5%;
+}
+
+ul.difDot {
+  display: flex;
+  flex-direction: column;
+  list-style-type: '♦♦';
+  margin-left: 2.5%;
+}
+
+h1, h4, span {
+  font-weight: bold;
+}
+
+
+table#newTable {
+  border: 0.30rem solid black;
+  border-style: solid;
+  font-size: 1vw;
+  width: 100%;
+}
+
+td.newBorder , th.newBorder {
+  border: 0.15rem solid gray;
+  padding: 0.10rem;
+}
+
+th.newBorderTwo {
+  text-align: center;
+  border: 0.15rem solid gray;
+  padding: 0.10rem;
+}
+
+h1.centerText, p.centerText {
+  text-align: center;
+}
+
+h1.marginLeftTwo {
+  margin-left: 2%;
+}
+
+ul.privacyPolicyHolderMainInfoTablesFlexStart {
+  align-self: flex-start;
+}
+
+li.privacyPolicyHolderMainInfoContentSpace, h1.privacyPolicyHolderMainInfoTitleSpace {
+  white-space: pre;
+}
+
+div#privacyPolicyHolderMainInfoCali {
+  align-self: flex-start;
+  align-items: flex-start;
+  margin-left: 1.95%;
+}
+
+div#privacyPolicyHolderMainInfoCaliTwo {
+  align-self: flex-start;
+  align-items: flex-start;
+}
+
+ul.privacyPolicyHolderMainInfoTablesPadding {
+  padding-left: 2.5%;
+}
+
+@media only screen and (max-width: 1601px) {
+  div#privacyPolicyHolderMainNav {
+    margin-left: -2%;
+  }
+
+  div#privacyPolicyHolderMainInfoOne {
+    margin-top: 16%;
+  }
+
+  ul#privacyPolicyHolderMainNavTable {
+    padding: 0;
+  }
+
+  div.privacyPolicyHolderMainInfo {
+    padding-left: 5%;
+    align-items: end;
+  }
+
+  div.privacyPolicyHolderMainInfoTwoZero {
+    padding-left: 0%;
+  }
+
+  a.privacyPolicyHolderMainNavTableLIA {
+    font-size: 1.05vw;
+  }
+
+  p.privacyPolicyHolderMainInfoContent {
+    font-size: 1.5vw;
+  }
+
+  p.privacyPolicyHolderMainInfoContentWidth1H {
+    width: 100%;
+  }
+
+  li.privacyPolicyHolderMainInfoContent {
+    font-size: 1.5vw;
+  }
+
+  ul.privacyPolicyHolderMainInfoTables {
+    padding-left: 9%;
+  }
+
+  h1.privacyPolicyHolderMainInfoTitle {
+    position: relative;
+    left: -2%;
+  }
+
+  h1.marginLeftTwo {
+    position: relative;
+    left: 0%;
+  }
+
+  h1.privacyPolicyHolderMainInfoTitleSpace {
+    left: 2%;
+  }
+
+  ul.difDot {
+    margin-left: 0%;
+  }
+
+  table#newTable {
+    width: 95%;
+    font-size: 1.5vw;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  div#privacyPolicyHolderMainNav {
+    margin-left: 0%;
+  }
+  li.privacyPolicyHolderMainNavTableLI:nth-child(n+8):nth-child(-n+10) a.privacyPolicyHolderMainNavTableLIA, li.privacyPolicyHolderMainNavTableLI:nth-child(4) a.privacyPolicyHolderMainNavTableLIA {
+    white-space: normal;
+    width: 120%;
+  }
+  a.privacyPolicyHolderMainNavTableLIA {
+    font-size: 1.3vw;
+    display: inline-flex;
+  }
+
+  li.privacyPolicyHolderMainNavTableLI:nth-child(2) a.privacyPolicyHolderMainNavTableLIA,
+  li.privacyPolicyHolderMainNavTableLI:nth-child(16) a.privacyPolicyHolderMainNavTableLIA,
+  li.privacyPolicyHolderMainNavTableLI:nth-child(13) a.privacyPolicyHolderMainNavTableLIA {
+    padding-left: 10%;
+  }
+
+  li.privacyPolicyHolderMainNavTableLI:nth-child(n+11):nth-child(-n+12) a.privacyPolicyHolderMainNavTableLIA,
+  li.privacyPolicyHolderMainNavTableLI:nth-child(15) a.privacyPolicyHolderMainNavTableLIA,
+  li.privacyPolicyHolderMainNavTableLI:nth-child(3) a.privacyPolicyHolderMainNavTableLIA {
+    padding-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 876px) {
+  section#privacyPolicyHolder {
+    justify-content: center;
+  }
+
+  div#privacyPolicyHolderMain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+
+  div#privacyPolicyHolderMainInfoOne {
+    margin-top: 0%;
+  }
+
+  div#privacyPolicyHolderMainNav {
+    width: 100%;
+    align-self: end;
+    margin-bottom: 6rem;
+  }
+
+  ul#privacyPolicyHolderMainNavTable {
+    position: relative;
+    padding-left: 0vw;
+  }
+
+  div#privacyPolicyHolderMainInfo {
+    width: 100%;
+    position: relative;
+    top: 1.25%;
+    left: 0.5%;
+  }
+
+  div.privacyPolicyHolderMainInfo {
+    margin-left: 3vw;
+    padding-left: 1%;
+  }
+
+  div.privacyPolicyHolderMainInfoTwoZero {
+    margin-left: 1vw;
+    width: 100%;
+  }
+
+  p.privacyPolicyHolderMainInfoContent, h1.privacyPolicyHolderMainInfoTitle {
+    width: 100%
+  }
+
+  ul.privacyPolicyHolderMainInfoTables {
+    padding-left: 3%;
+  }
+
+  li.privacyPolicyHolderMainNavTableLI:nth-child(n+0):nth-child(-n+16) a.privacyPolicyHolderMainNavTableLIA {
+    padding-left: 0%;
+  }
+
+  li.privacyPolicyHolderMainNavTableLI:nth-child(n+8):nth-child(-n+10) a.privacyPolicyHolderMainNavTableLIA, li.privacyPolicyHolderMainNavTableLI:nth-child(4) a.privacyPolicyHolderMainNavTableLIA {
+    width: 100%;
+  }
+
+  a.privacyPolicyHolderMainNavTableLIA {
+    font-size: 2.75vw;
+    display: revert;
+  }
+
+  .privacyPolicyHolderMainNavTableLIH {
+    font-size: 4vw;
+  }
+
+  h1.privacyPolicyHolderMainInfoTitle {
+    left: -0.5%;
+    font-size: 2.75vw;
+  }
+
+  p.privacyPolicyHolderMainInfoContent {
+    font-size: 2.25vw;
+  }
+
+  li.privacyPolicyHolderMainInfoContent {
+    width: 100%;
+    font-size: 2vw;
+  }
+
+  table#newTable {
+    width: 100%;
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  div.privacyPolicyHolderMainInfo {
+    padding-left: 0%;
+    margin-left: 0vw;
+  }
+
+  div#privacyPolicyHolderMainInfo {
+    align-self: end;
+    left: 0.75%;
+  }
+
+  div#privacyPolicyHolderMainNav {
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  div#privacyPolicyHolderMainInfo {
+    left: 1%;
+  }
+
+  div#privacyPolicyHolderMainNav {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  div.privacyPolicyHolderMainInfo {
+    align-items: center;
+  }
+
+  div#privacyPolicyHolderMainInfo {
+    left: 1.5%;
+  }
+
+  div#privacyPolicyHolderMainInfoOddOne ul.privacyPolicyHolderMainInfoTables {
+    align-self: normal;
+  }
+
+  li.privacyPolicyHolderMainNavTableLI {
+    padding: 0.5rem 0rem;
+  }
+
+  h1.privacyPolicyHolderMainInfoTitle {
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  a.privacyPolicyHolderMainNavTableLIA {
+    font-size: 3vw;
+  }
+
+  ul.privacyPolicyHolderMainInfoTables {
+    padding-left: 1.75%;
+    width: 95%;
+    align-self: center;
+  }
+
+  li.privacyPolicyHolderMainInfoContent {
+    font-size: 2.4vw;
+  }
+
+  p.privacyPolicyHolderMainInfoContent {
+    font-size: 2.75vw;
+    width: 96.5%;
+  }
+
+  ul.difDot {
+    padding-left: 1rem;
+  }
+
+  div.privacyPolicyHolderMainInfoTwoZero {
+    width: 96.5%;
+  }
+
+}
+@media only screen and (max-width: 481px) {
+  div#privacyPolicyHolderMain {
+    margin-top: 26%;
+  }
+
+  div#privacyPolicyHolderMainInfoCali {
+    width: 100%;
+  }
+
+  div#privacyPolicyHolderMainInfoCali ul.privacyPolicyHolderMainInfoTables li.privacyPolicyHolderMainInfoContent {
+    text-align: inherit;
+    margin-bottom: 3%;
+  }
+
+  div#privacyPolicyHolderMainInfoCali h1.privacyPolicyHolderMainInfoTitle {
+    white-space: normal;
+  }
+
+  div#privacyPolicyHolderMainInfo {
+    top: 0.5%;
+  }
+
+  p.privacyPolicyHolderMainInfoContent {
+    font-size: 1rem;
+  }
+
+  li.privacyPolicyHolderMainInfoContent {
+    white-space: normal;
+    font-size: 0.9rem;
+  }
+
+  table#newTable {
+    font-size: 0.7rem;
+    margin-left: 1.5%;
+  }
+
+  div.privacyPolicyHolderMainInfo:first-child h1.privacyPolicyHolderMainInfoTitle {
+    padding-top: 0rem;
+  }
+
+  .privacyPolicyHolderMainNavTableLIH, h1.privacyPolicyHolderMainInfoTitle {
+    font-size: 1.3rem;
+  }
+
+  h1.privacyPolicyHolderMainInfoTitle {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  a.privacyPolicyHolderMainNavTableLIA {
+    font-size: 1rem;
+    white-space: normal;
+  }
+
+  ul.privacyPolicyHolderMainInfoTablesFlexStart {
+    padding-left: 3.75%;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  div#privacyPolicyHolderMain {
+    margin-top: 38%;
+  }
+
+  div#privacyPolicyHolderMainInfo {
+    top: 0.34%;
+    left: 1.75%;
+  }
+
+  div#privacyPolicyHolderMainInfoCali ul.privacyPolicyHolderMainInfoTables li.privacyPolicyHolderMainInfoContent {
+    margin-bottom: 5%;
+  }
+
+  li.privacyPolicyHolderMainNavTableLI {
+    padding: 0rem 0rem 1.5rem 0rem;
+  }
+
+  li.privacyPolicyHolderMainNavTableLI:first-child {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  br.hiddenBr {
+    display: inherit;
+  }
+
+  span.spanNone {
+    display: none;
+  }
+
+  ul.privacyPolicyHolderMainInfoTablesFlexStart {
+    padding-left: 4.75%;
+  }
+
+  ul#privacyPolicyHolderMainNavTable {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  div#privacyPolicyHolderMain {
+    margin-top: 50%;
+  }
+
+  div#privacyPolicyHolderMainInfo {
+    left: 3%;
+    top: 0.25%;
+  }
+
+  div#privacyPolicyHolderMainNav {
+    margin-bottom: 2rem;
+  }
+
+  p.privacyPolicyHolderMainInfoContent, li.privacyPolicyHolderMainInfoContent {
+    text-align: inherit;
+  }
+
+  ul.privacyPolicyHolderMainInfoTables {
+    padding-left: 4.75%;
+  }
+
+  table#newTable {
+    font-size: 0.65rem;
+    margin-left: 2.25%;
+  }
+}
+
+@media only screen and (max-width: 230px) {
+  div#privacyPolicyHolderMain {
+    margin-top: 60%;
+  }
+
+  div#privacyPolicyHolderMainInfo {
+    left: 5%;
+  }
+
+  div#privacyPolicyHolderMainNav {
+    margin-bottom: 1.25rem;
+  }
+
+  table#newTable {
+    display: none;
+  }
+
+  ul#newTableUl {
+    display: inherit;
+  }
+
+  ul.privacyPolicyHolderMainInfoTablesFlexStart {
+    padding-left: 6.75%;
+  }
+}
+
+@media only screen and (max-width: 180px) {
+  div#privacyPolicyHolderMainInfo {
+    left: 3%;
+    top: 0.2%;
+  }
+
+  div#privacyPolicyHolderMain {
+    margin-top: 80%;
+  }
+
+  h1.privacyPolicyHolderMainInfoTitle {
+    left: -5%;
+  }
+
+  div.privacyPolicyHolderMainInfo:first-child h1.privacyPolicyHolderMainInfoTitle {
+    left: -8%;
+  }
+
+  .privacyPolicyHolderMainNavTableLIH, h1.privacyPolicyHolderMainInfoTitle {
+    font-size: 1.1rem;
+  }
+
+  p.privacyPolicyHolderMainInfoContent {
+    font-size: 0.9rem;
+  }
+
+  ul.privacyPolicyHolderMainInfoTablesFlexStart {
+    padding-left: 8.75%;
+  }
+
+  a.aMinusMargin {
+    word-break: break-all;
+  }
+
+}
+
+@media only screen and (max-width: 160px) {
+  div.privacyPolicyHolderMainInfo:first-child h1.privacyPolicyHolderMainInfoTitle {
+    left: -19%;
+  }
+
+  ul.privacyPolicyHolderMainInfoTablesFlexStart {
+    padding-left: 10.75%;
+  }
+}
+
+@media only screen and (max-width: 150px) {
+  div#privacyPolicyHolderMainInfo {
+    left: 6%;
+    top: 0.28%;
+  }
+
+  div#privacyPolicyHolderMainNav {
+    align-self: center;
+  }
+
+  div#privacyPolicyHolderMain {
+    margin-top: 100%;
+  }
+
+  .privacyPolicyHolderMainNavTableLIH, h1.privacyPolicyHolderMainInfoTitle {
+    font-size: 0.9rem;
+  }
+
+  p.privacyPolicyHolderMainInfoContent, li.privacyPolicyHolderMainInfoContent {
+    font-size: 0.7rem;
+  }
+}

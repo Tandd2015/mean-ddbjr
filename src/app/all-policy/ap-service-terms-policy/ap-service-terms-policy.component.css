@@ -1,0 +1,321 @@
+app-footer {
+  position: relative;
+}
+
+section#servTermHolder {
+  width: 100%;
+  justify-content: flex-end;
+  display: inherit;
+  position: relative;
+}
+
+div#servTermHolderMain {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 9%;
+}
+
+div#servTermHolderMainNav {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+}
+
+ul#servTermHolderMainNavTable {
+  position: sticky;
+  top: 10%;
+  padding-left: 2vw;
+  list-style-type: none;
+}
+
+li.servTermHolderMainNavTableLI {
+  text-align: center;
+  padding: 0.9rem 0rem;
+}
+
+a.servTermHolderMainNavTableLIA {
+  font-size: 1.4vw;
+  background-color: white;
+  white-space: nowrap;
+}
+
+li.servTermHolderMainNavTableLI:nth-child(6) a.servTermHolderMainNavTableLIA , li.servTermHolderMainNavTableLI:nth-child(10) a.servTermHolderMainNavTableLIA, li.servTermHolderMainNavTableLI:nth-child(11) a.servTermHolderMainNavTableLIA {
+  white-space: normal;
+}
+
+.servTermHolderMainNavTableLIH {
+  background-color: white;
+  font-size: 2vw;
+}
+
+div.servTermHolderMainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#servTermHolderMainInfo {
+  width: 74%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p.servTermHolderMainInfoContent {
+  width: 90%;
+  margin-bottom: 2%;
+  background-color: white;
+  text-align: center;
+  white-space: pre-line;
+  font-size: 1vw;
+}
+
+li.servTermHolderMainInfoContent {
+  margin-bottom: 0.5rem;
+  background-color: white;
+  white-space: pre-line;
+  font-size: 1vw;
+}
+
+h1.servTermHolderMainInfoTitle {
+  margin-bottom: 1%;
+  width: 90%;
+  text-align: center;
+  background-color: white;
+  font-size: 2vw;
+}
+
+ul.servTermHolderMainInfoTables {
+  list-style-type: '♦ ';
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h4 {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 2478px) {
+  a.servTermHolderMainNavTableLIA {
+    font-size: 1.3vw;
+  }
+  p.servTermHolderMainInfoContent {
+    font-size: 1.3vw;
+  }
+  ul#servTermHolderMainNavTable {
+    padding-left: 0vw;
+  }
+  li.servTermHolderMainNavTableLI {
+    padding: 0.7rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 1601px) {
+  ul#servTermHolderMainNavTable {
+    top: 12%;
+  }
+  a.servTermHolderMainNavTableLIA {
+    font-size: 1.2vw;
+  }
+  p.servTermHolderMainInfoContent {
+    font-size: 1.2vw;
+  }
+  div.servTermHolderMainInfo {
+    align-items: end;
+  }
+  li.servTermHolderMainNavTableLI {
+    padding: 0.65rem 0rem;
+  }
+}
+
+@media only screen and (max-width: 876px) {
+  section#servTermHolder {
+    justify-content: center;
+  }
+
+  div#servTermHolderMain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+
+  div#servTermHolderMainNav {
+    width: 100%;
+    align-self: end;
+  }
+
+  ul#servTermHolderMainNavTable {
+    position: relative;
+    padding-left: 2vw;
+  }
+
+  div#servTermHolderMainInfo {
+    width: 100%;
+    position: relative;
+    top: 7%;
+  }
+
+  div.servTermHolderMainInfo {
+    margin-left: 3vw;
+  }
+
+  p.servTermHolderMainInfoContent, h1.servTermHolderMainInfoTitle {
+    width: 100%
+  }
+
+  a.servTermHolderMainNavTableLIA {
+    font-size: 2.75vw;
+  }
+
+  .servTermHolderMainNavTableLIH, h1.servTermHolderMainInfoTitle {
+    font-size: 4vw;
+  }
+
+  p.servTermHolderMainInfoContent {
+    font-size: 2.25vw;
+  }
+
+  li.servTermHolderMainInfoContent {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (max-width: 672px) {
+  div.servTermHolderMainInfo {
+    margin-left: 3.5vw;
+  }
+
+  ul#servTermHolderMainNavTable {
+    padding-left: 2vw;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  div.servTermHolderMainInfo {
+    margin-left: 4.5vw;
+  }
+
+  div#servTermHolderMain {
+    margin-top: 40%;
+  }
+
+  li.servTermHolderMainNavTableLI {
+    text-align: center;
+    padding: 0.5rem 0rem;
+  }
+
+  a.servTermHolderMainNavTableLIA {
+    font-size: 3.25vw;
+  }
+
+  p.servTermHolderMainInfoContent {
+    font-size: 2.75vw;
+  }
+
+  li.servTermHolderMainInfoContent {
+    font-size: 2.4vw;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  div#servTermHolderMain {
+    margin-top: 30%;
+    padding-top: 1rem;
+  }
+
+  div.servTermHolderMainInfo {
+    margin-left: 5.15vw;
+  }
+
+  div#servTermHolderMainInfo {
+    top: 5%;
+  }
+
+  ul#servTermHolderMainNavTable {
+    padding-left: 0vw;
+  }
+
+  p.servTermHolderMainInfoContent {
+    font-size: 1rem;
+  }
+
+  li.servTermHolderMainInfoContent {
+    font-size: 0.9rem;
+  }
+
+  .servTermHolderMainNavTableLIH, h1.servTermHolderMainInfoTitle {
+    font-size: 1.3rem;
+  }
+
+  div.servTermHolderMainInfo:first-child h1.servTermHolderMainInfoTitle {
+    padding-top: 0rem;
+  }
+
+  h1.servTermHolderMainInfoTitle {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  a.servTermHolderMainNavTableLIA {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  div#servTermHolderMainInfo {
+    top: 3.5%;
+    padding-bottom: 2rem;
+    left: 2.75%;
+  }
+
+  div.servTermHolderMainInfo {
+    margin-left: 4.5vw;
+  }
+
+  div#servTermHolderMainNav {
+    margin-left: 6.5%;
+  }
+
+  a.servTermHolderMainNavTableLIA {
+    white-space: normal;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  div#servTermHolderMainInfo {
+    left: 4.75%;
+  }
+}
+
+@media only screen and (max-width: 230px) {
+  div#servTermHolderMainInfo {
+    left: 9.75%;
+  }
+  div#servTermHolderMain {
+    padding-top: 5.5rem;
+  }
+
+  div#servTermHolderMainNav {
+    margin-left: 11%;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  div#servTermHolderMainInfo {
+    left: 12.75%;
+  }
+
+  div#servTermHolderMainNav {
+    margin-left: 18%;
+  }
+
+  h1.privacyPolicyHolderMainInfoTitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 150px) {
+  div#servTermHolderMain {
+    padding-top: 7.5rem;
+  }
+}
