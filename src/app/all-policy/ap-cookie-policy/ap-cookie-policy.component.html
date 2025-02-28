@@ -3,36 +3,35 @@
     <div class="row" id="cookiePolicyHolderMainNav">
       <ul id="cookiePolicyHolderMainNavTable">
         <li class="cookiePolicyHolderMainNavTableLI"><h1 class="cookiePolicyHolderMainNavTableLIH">Cookie Policy</h1></li>
-        <!-- <li class="cookiePolicyHolderMainNavTableLI"><h4 class="cookiePolicyHolderMainNavTableLIH">Table of Contents and Navigation Links</h4></li> -->
-        <li class="cookiePolicyHolderMainNavTableLI"><a href="" class="cookiePolicyHolderMainNavTableLIA">Table of Contents and Navigation Links</a></li>
-        <li class="cookiePolicyHolderMainNavTableLI"><a href="" class="cookiePolicyHolderMainNavTableLIA">{{thisSiteC}} Cookie Policy.</a></li>
-        <li class="cookiePolicyHolderMainNavTableLI"><a href="" class="cookiePolicyHolderMainNavTableLIA">What are cookies?</a></li>
-        <li class="cookiePolicyHolderMainNavTableLI"><a href="" class="cookiePolicyHolderMainNavTableLIA">How does {{thisSite}} use cookies?</a></li>
-        <li class="cookiePolicyHolderMainNavTableLI"><a href="" class="cookiePolicyHolderMainNavTableLIA">What particular types of cookies does {{thisSiteC}} use?</a></li>
-        <li class="cookiePolicyHolderMainNavTableLI"><a href="" class="cookiePolicyHolderMainNavTableLIA">How can I control the cookie preferences?</a></li>
-        <li class="cookiePolicyHolderMainNavTableLI"><a href="" class="cookiePolicyHolderMainNavTableLIA">Cookie Policy Effective Date</a></li>
+        <li class="cookiePolicyHolderMainNavTableLI"><a class="cookiePolicyHolderMainNavTableLIA">Table of Contents and Navigation Links</a></li>
+        <li class="cookiePolicyHolderMainNavTableLI"><a (click)="toCookie($event, idArrayCookie[0])" class="cookiePolicyHolderMainNavTableLIA">{{businessCookie}} Cookie Policy.</a></li>
+        <li class="cookiePolicyHolderMainNavTableLI"><a (click)="toCookie($event, idArrayCookie[1])" class="cookiePolicyHolderMainNavTableLIA">What are cookies?</a></li>
+        <li class="cookiePolicyHolderMainNavTableLI"><a (click)="toCookie($event, idArrayCookie[2])" class="cookiePolicyHolderMainNavTableLIA">How does {{siteCookie}} use cookies?</a></li>
+        <li class="cookiePolicyHolderMainNavTableLI"><a (click)="toCookie($event, idArrayCookie[3])" class="cookiePolicyHolderMainNavTableLIA">What particular types of cookies does {{businessCookie}} use?</a></li>
+        <li class="cookiePolicyHolderMainNavTableLI"><a (click)="toCookie($event, idArrayCookie[4])" class="cookiePolicyHolderMainNavTableLIA">How can I control the cookie preferences?</a></li>
+        <li class="cookiePolicyHolderMainNavTableLI"><a (click)="toCookie($event, idArrayCookie[5])" class="cookiePolicyHolderMainNavTableLIA">Cookie Policy Effective Date</a></li>
       </ul>
     </div>
     <div class="row" id="cookiePolicyHolderMainInfo">
       <div class="cookiePolicyHolderMainInfo">
-        <h1 class="cookiePolicyHolderMainInfoTitle">{{thisSiteC}} Cookie Policy</h1>
-        <p class="cookiePolicyHolderMainInfoContent">This section of the Cookie Policy explains what website cookies are and uses for them with in a website. The sections statement is to better understand what website cookies are along with the individual types of website cookies {{thisSite}} uses. How as well as why {{thisSite}} implements those particular cookie types.</p>
-        <p class="cookiePolicyHolderMainInfoContent">In example, the data {{thisSite}} collects using  website cookies. How the collected data is being used to better serve you. Lastly, How to control the browser's website cookie preferences.</p>
-        <p class="cookiePolicyHolderMainInfoContent">For further information on how {{thisSite}} uses, stores and keeps your personal data secure, see the website's <a routerLink="/home/policies/privacy">Privacy Policy</a>.</p>
+        <h1 class="cookiePolicyHolderMainInfoTitle" id="policyCookie">{{businessCookie}} Cookie Policy</h1>
+        <p class="cookiePolicyHolderMainInfoContent">This section of the Cookie Policy explains what website cookies are and uses for them with in a website. The sections statement is to better understand what website cookies are along with the individual types of website cookies {{siteCookie}} uses. How as well as why {{siteCookie}} implements those particular cookie types.</p>
+        <p class="cookiePolicyHolderMainInfoContent">In example, the data {{siteCookie}} collects using  website cookies. How the collected data is being used to better serve you. Lastly, How to control the browser's website cookie preferences.</p>
+        <p class="cookiePolicyHolderMainInfoContent">For further information on how {{siteCookie}} uses, stores and keeps your personal data secure, see the website's <a routerLink="/home/policies/privacy">Privacy Policy</a>.</p>
         <p class="cookiePolicyHolderMainInfoContent">We reserve the right to amend this cookie policy notice at our discretion and at any time. When we do make changes to this cookie policy notice. We will post the updated cookie policy notice on the website. In addition to updating the cookie policy notice's effective date. Your continued use of our website following the posting of changes constitutes your acceptance of such changes to the cookie policy notice.</p>
       </div>
       <div class="cookiePolicyHolderMainInfo">
-        <h1 class="cookiePolicyHolderMainInfoTitle">What are cookies?</h1>
+        <h1 class="cookiePolicyHolderMainInfoTitle" id="whatCookie">What are cookies?</h1>
         <p class="cookiePolicyHolderMainInfoContent">Cookies are small text files that are used to store small pieces of user data. The cookies are stored on your device when the website is loaded on your browser. The cookies help make the website function properly. Cookies make the website more secure while providing a better user experience. Developers use cookies to understand how the website is performing. Along with analyzing what works, what doesn't work and where improvements are needed.</p>
       </div>
       <div class="cookiePolicyHolderMainInfo">
-        <h1 class="cookiePolicyHolderMainInfoTitle">How does {{thisSite}} use cookies?</h1>
-        <p class="cookiePolicyHolderMainInfoContent">As with most of the online websites and services {{thisSite}} uses first-party in tandem with third-party cookies for a wide range of purposes. All purposes collectively used for catering to a better and more personalized online user experience.</p>
-        <p class="cookiePolicyHolderMainInfoContent">The first-party cookies used on {{thisSite}} are largely necessary for the website to function the properly intended way, while potentially collecting some of your personally identifiable data depending on the user's case.</p>
-        <p class="cookiePolicyHolderMainInfoContent">The third-party cookies used on {{thisSite}} are used primarily for measuring the performance of the website. Data collection on how you interact with our website. Keeping our services secure and providing advertisements that are relevant to you. The mechanism of which provides you with a better and improved user experience with collected analytical data. Along with helping speed up your future interactions with our website.</p>
+        <h1 class="cookiePolicyHolderMainInfoTitle" id="howCookie">How does {{siteCookie}} use cookies?</h1>
+        <p class="cookiePolicyHolderMainInfoContent">As with most of the online websites and services {{siteCookie}} uses first-party in tandem with third-party cookies for a wide range of purposes. All purposes collectively used for catering to a better and more personalized online user experience.</p>
+        <p class="cookiePolicyHolderMainInfoContent">The first-party cookies used on {{siteCookie}} are largely necessary for the website to function the properly intended way, while potentially collecting some of your personally identifiable data depending on the user's case.</p>
+        <p class="cookiePolicyHolderMainInfoContent">The third-party cookies used on {{siteCookie}} are used primarily for measuring the performance of the website. Data collection on how you interact with our website. Keeping our services secure and providing advertisements that are relevant to you. The mechanism of which provides you with a better and improved user experience with collected analytical data. Along with helping speed up your future interactions with our website.</p>
       </div>
       <div class="cookiePolicyHolderMainInfo">
-        <h1 class="cookiePolicyHolderMainInfoTitle">What particular types of cookies does {{thisSiteC}} use?</h1>
+        <h1 class="cookiePolicyHolderMainInfoTitle" id="typeCookie">What particular types of cookies does {{businessCookie}} use?</h1>
         <p class="cookiePolicyHolderMainInfoContent">Essential: Some cookies are essential for you to be able to move around and to experience the full functionality of our website. They are usually only set in response to actions made by the user which amounts to a request for service. These cookies allow the website to maintain user sessions and prevent any security threats. In addition to setting your privacy preferences, logging in, or filling in forms. These cookies do not collect or store any personal information. In example, these cookies allow you to log-in to your account as well as remain logged in under a session service. You can set the browser to block or alert you about these cookies. Without these cookies the services you have asked for cannot be provided. See below for more information on how to manage the collection of this information. Otherwise refer to your web browser or device instructions.</p>
         <p class="cookiePolicyHolderMainInfoContent">Statistics: These are analytic and research cookies that store data like the count of non-unique and unique visitors to the website. Essentially, measuring the traffic of the website and seeing how user's move around the website. Furthermore, which components have been used, pages of the website that have been visited, and the source of the visit. etc... This data helps the developer quantify and analyze the measured performance of the website allowing for improvement where it needs. All information these cookies collect is aggregated and therefore anonymous. You can set your browser to block or alert you about these cookies. Blocking these cookies will not affect the services provided to you. See below for more information on how to manage the collection of this information. Otherwise refer to your web browser or device instructions.</p>
         <p class="cookiePolicyHolderMainInfoContent">Marketing: These cookies are set by us and our advertising partners to record your visit to the website. Additionally, the websites you have visited and the links you have followed. The Company and our advertising partners will use this information to make the website. Along with the advertising displayed on the website to you more relevant to your interests. These cookies also help the developers keep track of the efficiency of these ad campaigns. You can set your browser to block or alert you about these cookies. Blocking these cookies will not affect the services provided to you. Without these cookies it will limit the targeted advertising that you will see. Furthermore limit our ability to tailor the website experience to each user's individual needs. See below for more information on how to manage the collection of this information. Otherwise refer to your web browser or device instructions.</p>
@@ -44,7 +43,7 @@
         <p class="cookiePolicyHolderMainInfoContent">Tracking Technologies Including Pixels, Script, Web Beacons/Gifs, Page Tags: These files or code may be included in the following. Emails and mobile apps to record how you interact with us. In addition to helping us better analyze and improve our services to you. You can set your browser to block or alert you about these cookies. These settings will apply to all cookies whether included on websites or in emails. However, in some instances depending on your email or browser settings the files may be automatically accepted. In example, when you have added an email address to your address book or safe senders list. See below for more information on how to manage the collection of this information. Otherwise refer to your web browser or device instructions.</p>
       </div>
       <div class="cookiePolicyHolderMainInfo">
-        <h1 class="cookiePolicyHolderMainInfoTitle">How can I control the cookie preferences?</h1>
+        <h1 class="cookiePolicyHolderMainInfoTitle" id="controlCookie">How can I control the cookie preferences?</h1>
         <p class="cookiePolicyHolderMainInfoContent">You can prevent your browser from accepting certain cookies. Have the browser require your consent before a new cookie is placed in your browser. Otherwise block cookies altogether by selecting the appropriate settings on your browser privacy preferences menu. You can click on the (Privacy & Cookie Policy) tab on your screen in the current browser application. This will display the consent notice again enabling you to change your preferences to the website cookies policy. With the option to withdraw your consent from the website cookies policy entirely.</p>
         <p class="cookiePolicyHolderMainInfoContent">The links below will help you find the settings for some commonly used browsers. Please note that we are not responsible for the content of external websites.</p>
         <ul class="cookiePolicyHolderMainInfoTables">
@@ -66,7 +65,7 @@
         <p class="cookiePolicyHolderMainInfoContent">Please Note - Clicking the links above will redirect you to the appropriate third party website. We are not responsible for the content of external websites. </p>
       </div>
       <div class="cookiePolicyHolderMainInfo">
-        <h1 class="cookiePolicyHolderMainInfoTitle">Cookie Policy Effective Date</h1>
+        <h1 class="cookiePolicyHolderMainInfoTitle" id="dateCookie">Cookie Policy Effective Date</h1>
         <p class="cookiePolicyHolderMainInfoContent">The last cookie policy modification was made {{effectiveDateCookie}}.</p>
       </div>
     </div>

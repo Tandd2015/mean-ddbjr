@@ -11,5 +11,12 @@ export class ApServiceTermsPolicyComponent {
   public emailServiceTerm: string = '@gmail.com';
   public effectiveDateServiceTerm: string = '02-11-2025';
 
-  constructor() { };
+  public idArrayServiceTerm: string[] = ["conditionsServiceTerm", "applicableServiceTerm", "copyRightServiceTerm", "disclaimerServiceTerm", "disputeServiceTerm", "licenseServiceTerm", "privacyServiceTerm", "agreementServiceTerm", "dateServiceTerm", "questionServiceTerm"];
+
+  constructor() {};
+
+  public toServiceTerm(navClick: Event, id: string): void {
+    navClick.preventDefault();
+    document.getElementById(`${id}`)?.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  };
 }

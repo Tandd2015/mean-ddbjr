@@ -3,25 +3,24 @@
     <div class="row" id="privacyPolicyHolderMainNav">
       <ul id="privacyPolicyHolderMainNavTable">
         <li class="privacyPolicyHolderMainNavTableLI"><h1 class="privacyPolicyHolderMainNavTableLIH">Privacy Policy</h1></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Table of Contents and Navigation Links</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Privacy Policy Definitions</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Practiced Personal User Data Protection Principles</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Accumulated Personal User Data Subject's Rights</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Accumulated Personal User Data</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Use Of Company Accumulated Personal User Data</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Who Else Can Access Company Accumulated Personal User Data</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Securing Protocols for Accumulated Personal User Data</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Policy On Accumulating Personal User Data Of Children</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Contact Information</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">California User's Privacy Rights</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">European Personal User Data Subjects</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Modification Regulations Of Privacy Policy</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Special Disclosures</a></li>
-        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" href="">Company Privacy Policy Effective Date</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA">Table of Contents and Navigation Links</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[0])">Privacy Policy Definitions</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[1])">Company Practiced Personal User Data Protection Principles</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[2])">Accumulated Personal User Data Subject's Rights</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[3])">Company Accumulated Personal User Data</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[4])">Use Of Company Accumulated Personal User Data</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[5])">Who Else Can Access Company Accumulated Personal User Data</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[6])">Company Securing Protocols for Accumulated Personal User Data</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[7])">Company Policy On Accumulating Personal User Data Of Children</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[8])">Company Contact Information</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[9])">California User's Privacy Rights</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[10])">European Personal User Data Subjects</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[11])">Company Modification Regulations Of Privacy Policy</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[12])">Company Special Disclosures</a></li>
+        <li class="privacyPolicyHolderMainNavTableLI"><a class="privacyPolicyHolderMainNavTableLIA" (click)="toPrivacy($event, idArrayPrivacy[13])">Company Privacy Policy Effective Date</a></li>
       </ul>
     </div>
-    <div class="row" id="privacyPolicyHolderMainInfo">
-      <!-- Fix routerLink destination for all a tags in the Table of Contents and Navigation Links ol -->
+    <div class="row" id="privacyPolicyHolderMainInfo"  id="definitionsPrivacy">
       <div class="privacyPolicyHolderMainInfo" id="privacyPolicyHolderMainInfoOne">
         <h1 class="privacyPolicyHolderMainInfoTitle">{{businessPrivacy}} Privacy Policy</h1>
         <p class="privacyPolicyHolderMainInfoContent">{{businessPrivacy}} offer services and products to our customers and website users. The company owns this website at {{sitePrivacy}} to help the company better provide these services and products to the user. The company is committed to safe guarding your privacy. This privacy policy below describes the privacy practices of this company, it's affiliates, and subsidiaries. As to the collection, use, and disclosure of your information. It was designed and constructed to provide transparency into the company's privacy practices in a format for the user to read, navigate, and understand relatively easy. The company sometimes collects personal information in order to provide the user with information, services, and products at the user's request. In addition to compiling a better understanding of our customer's wants and needs to provide an optimized user friendly experience. When visiting the company's website the user consents to the collection, transfer, manipulation, storage, disclosure, and any other company uses of your information as described below in this privacy policy. When calling the company's phone number the user consents and allows the company to record phone calls. Furthermore, to playback those calls whenever the company deems necessary.</p>
@@ -43,7 +42,7 @@
         </ul>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Practiced Personal User Data Protection Principles</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="protectionPrivacy">Company Practiced Personal User Data Protection Principles</h1>
         <p class="privacyPolicyHolderMainInfoContent">{{businessPrivacy}} promises to follow all of the listed below Personal User Data Principles.</p>
         <ul class="privacyPolicyHolderMainInfoTables">
           <li class="privacyPolicyHolderMainInfoContent">The Processing of Personal User Data is lawful, fair, and transparent. The Company's Processing activities stand on lawful grounds. We always consider and put first the rights of the user before Processing Personal User Data. Our Company will at any time provide the user information regarding any of the Processing upon your request.</li>
@@ -55,7 +54,7 @@
         </ul>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Accumulated Personal User Data Subject's Rights</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="userDataPrivacy">Accumulated Personal User Data Subject's Rights</h1>
         <p class="privacyPolicyHolderMainInfoContent">The Personal User Data Subject has the following rights.</p>
         <ul class="privacyPolicyHolderMainInfoTables">
           <li class="privacyPolicyHolderMainInfoContent"><span>Right to access - </span>The User's right to have access to the Personal User Data collected from the User about the User. Furthermore, the User's right to request and receive a copy of your Personal User Data that has been collected by the Company.</li>
@@ -66,13 +65,14 @@
           <li class="privacyPolicyHolderMainInfoContent"><span>Right to object to automated Processing - </span>The User's right to object the Company's automated Processing of the User's Personal User Data collected from the User about the User. Including profiling and not to be subject to a decision based solely upon automated Processing. The User's right can exercised whenever there is an outcome of the profiling that produces legal effects concerning or otherwise significantly affecting the User.</li>
           <li class="privacyPolicyHolderMainInfoContent"><span>Right to object to Processing - </span>The User's right to in special qualifying circumstances object the Company's Processing of the User's Personal User Data collected from the User about the User.</li>
           <li class="privacyPolicyHolderMainInfoContent"><span>Right to portability of Personal User Data - </span>The User's right to obtain a copy of the Personal User Data collected from the User about the User by the Company in a machine-readable format. If it is feasible in a direct transfer from one Processor to another Processor.</li>
+          <!-- At Right to lodge complaint fix a tag. -->
           <li class="privacyPolicyHolderMainInfoContent"><span>Right to lodge a complaint - </span>In the event the Company refuses the User's request under the Rights of Access. The Company will provide the User with a reasonable explanation as to why the response was justifiably executed. Subsequently, if the User is not satisfied with the executed response by the Company to your request. Please contact the Company by any listed means here at the link to the <a href="">Contact Us</a> page of the Company's website.</li>
           <li class="privacyPolicyHolderMainInfoContent"><span>Right to the help of supervisory authority - </span>The User's right to acquire the help of a supervisory authority as well as the right for other legal resorts including claiming damages.</li>
           <li class="privacyPolicyHolderMainInfoContent"><span>Right to withdraw consent - </span>The User's right to withdraw any given consent for the Processing of your Personal User Data collected from the User about the User by the Company.</li>
         </ul>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Accumulated Personal User Data</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="companyPrivacy">Company Accumulated Personal User Data</h1>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
           <p class="privacyPolicyHolderMainInfoContent">Company Accumulated Information Provided By The User</p>
           <ul class="privacyPolicyHolderMainInfoTables">
@@ -100,7 +100,7 @@
         </div>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Use Of Company Accumulated Personal User Data</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="companyUsePrivacy">Use Of Company Accumulated Personal User Data</h1>
         <p class="privacyPolicyHolderMainInfoContent">The Company has various refined, specific, and deliberately intentional uses for the User's accumulated Personal User Data.</p>
         <ul class="privacyPolicyHolderMainInfoTables">
           <li class="privacyPolicyHolderMainInfoContent">The User's accumulated Personal User Data is used by the Company in order to provide our Services to the User. This may include registering your User account on the Company's website. The Company providing the User with additional User requested products and services. The Company providing the User with promotional products or services at the User's request. Furthermore, communication from the Company to the User in regards to those promotional products and services. In addition for the use of general communications along with other interactions between the Company and the User. The Company notifying the User of any policy or Service changes.</li>
@@ -150,7 +150,7 @@
         <p class="privacyPolicyHolderMainInfoContent">In Regards to the Company's Business Transfer Policy of the User's accumulated Personal User Data .In the event of a acquisition, bankruptcy, insolvency, merger, debt financing transaction, sale of our assets, other similar transactions, or receivership occurs. The Company may disclose and transfer the User's accumulated Personal User Data to a third party. The third party would thereafter be entitled to review and use the User's accumulated Personal User Data in connection with its business activities. In such event, the Privacy Policy of the third party may thereafter apply to the User's accumulated Personal User Data rather than this website's Privacy Policy.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Who Else Can Access Company Accumulated Personal User Data</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="WhoPrivacy">Who Else Can Access Company Accumulated Personal User Data</h1>
         <p class="privacyPolicyHolderMainInfoContent"><span>Sharing Company accumulated Personal User Data - </span>The Company does not share the User's accumulated Personal User Data with any strangers. The User's accumulated Personal User Data is in some specialized circumstances provided to the Company's trusted partners. In order to either make providing the service to the User possible or to optimize the User's customer experience. The Company only works with Processing partners who are able to ensure adequate level of protection to the User's accumulated Personal User Data. The Company discloses your Personal User Data to third parties or public officials when We are legally obliged to do so. The Company may disclose the User's accumulated Personal User Data to third parties if you have consented to it or if there is a legitimate legal basis for it.</p>
         <p class="privacyPolicyHolderMainInfoContent">The Company shares your Personal User Data with the following listed companies.</p>
         <ul class="privacyPolicyHolderMainInfoTables privacyPolicyHolderMainInfoTablesFlexStart">
@@ -169,50 +169,50 @@
         </ul>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Securing Protocols for Accumulated Personal User Data</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="protocolsPrivacy">Company Securing Protocols for Accumulated Personal User Data</h1>
         <p class="privacyPolicyHolderMainInfoContent">The Company has listed below for User example some of the reasonable and appropriate security measures that are in place. To protect against the loss, misuse, and alteration of any the Personal User Data the Company receives about the User. The Company uses safe protocols for communication and transferring data such as HTTPS. The Company uses anonymizing and pseudonymising where suitable. The Company monitors our systems closely for possible vulnerabilities and cyber attacks.</p>
         <p class="privacyPolicyHolderMainInfoContent">Unfortunately, no data transmission or storage can be guaranteed to be completely secure. As a result, even though the Company tries OUR best, the Company can not guarantee the security of the User's accumulated Personal User Data. The User acknowledges that the Company cannot control website security and privacy indefinitely. Also the security, integrity, and privacy of Personal User Data or general data exchanged between the User and the Company cannot always be guaranteed. Any such Personal User Data and general data may be viewed or compromised when in transit by a third party. However, the Company promises to notify suitable authorities of any data breaches or cyber attacks. The Company will also notify the User if there is any threat to the User's rights or interests. The Company will do everything we reasonably can to prevent security breaches and cyber attacks. In addition, to assisting authorities should any breaches or cyber attacks occur.</p>
         <p class="privacyPolicyHolderMainInfoContent">If the Company has User accounts activated. Furthermore, if the User has an active User account on the Company's website. Please take note that the User must keep your username and password a secret.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Policy On Accumulating Personal User Data Of Children</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="childrenPrivacy">Company Policy On Accumulating Personal User Data Of Children</h1>
         <p class="privacyPolicyHolderMainInfoContent">The Company's Services and website are not directed at children under the age of 18. The Company does not knowingly collect Personal User Data from children under the age of 18 without obtaining parental consent. It is Company procedure to promptly delete any Personal User Data collected from a child under the age of 18 upon discovery of such circumstances. If the User believes that we may have collected Personal User Data from a child under the age of 18. Please contact the Company using the contact information at the end of this Privacy Policy agreement. The Company will take appropriate steps to rectify this inadvertent collection of Personal User Data.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Contact Information</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="contactPrivacy">Company Contact Information</h1>
         <p class="privacyPolicyHolderMainInfoContent">If the User has any questions or concerns about this Privacy Policy agreement. Please contact the Company at <a href="mailto:{{emailPrivacy}}" class="aMinusMargin">{{emailPrivacy}}</a> or via the other listed means at the Company's contact us webpage. Which can the User can redirect their browser to at the following link provided <a routerLink="/home/contact" id="">Contact Us</a></p>
       </div>
 
 
       <!-- Supplemental CCPA Privacy Policy a tag needs to be set to autofocus on the correct div with css -->
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">California User's Privacy Rights</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="CaliforniaUserPrivacy">California User's Privacy Rights</h1>
         <p class="privacyPolicyHolderMainInfoContent">If you a User located in California and the Company collects Your Personal User Data. The California Consumer Privacy Act may apply to the User. In such a case, the Company's <a href="">Supplemental CCPA Privacy Policy</a> will take in effect and apply in the event of any conflict with this general Privacy Policy agreement. Likewise, other California privacy laws may apply to you in certain circumstances.</p>
         <p class="privacyPolicyHolderMainInfoContent">Pursuant to California business and professions code section 1798.83 or such successor provision. As amended and supplemented the residents of California have the right to request from a business with whom the California resident has an established business relationship with. Certain information with respect to the types of Personal User Data the business shares with third parties. For the third parties direct marketing purposes and the identities of the third parties with whom the business has shared such Personal User Data. During the immediately preceding calendar year.</p>
         <p class="privacyPolicyHolderMainInfoContent">In addition, an operator of a commercial website subject to California business and professions code section 22581 must allow California residents under the age of 18. Who are registered Users of online websites, Services or applications. To request as well as obtain removal of content or information they have publicly posted. If this applies to the User and You wish to make such a request. The User's request should include a detailed description of the specific content or information to be removed. Please be aware that the User's request does not guarantee complete or comprehensive removal. With respect to the content or information posted online by the User. Furthermore, that the law may not permit or require removal in certain circumstances.</p>
         <p class="privacyPolicyHolderMainInfoContent">If the User is a California resident, an believes that one of the above code provisions applies to You, and would like to make such a request. The User may submit a written request using the contact information located at the end of this Privacy Policy agreement.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">European Personal User Data Subjects</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="EuropeanUserPrivacy">European Personal User Data Subjects</h1>
         <p class="privacyPolicyHolderMainInfoContent">The European Union General Data Protection Regulation provides certain regulations for the Processing of Personal User Data of Users who are located within the EU. The GDPR applies when an entity offers goods or Services to a User located within the EU. In Addition, to monitoring the behavior of a User if the behavior takes place in the EU.</p>
         <p class="privacyPolicyHolderMainInfoContent">The Company is an entity based in the United States that provides personalized digital marketing services to local businesses in the United States. Although the Company's website may be accessible in some locations outside of the United States. It is not the Company's intention to offer Services to Users located outside of the United States. Any Personal User Data the Company collects will be stored and Processed in the United States. If the User is located outside of the United States. The laws of the United States may offer less protection than that of the laws of the User's place of residence. The Company will collect and maintain any Personal User Data only as long as the Company needs it for the purposes outlined in this Privacy Policy agreement. By the User providing Personal User Data to the Company through the User's use of the Services or website. The User agrees to our transfer, storage, and Processing procedures based in the United States. Please note that different regions and countries. May have their own privacy and data security laws. Some of which may be less protective of Your Personal User Data than the laws of the User's own region or country.</p>
         <p class="privacyPolicyHolderMainInfoContent">In the event that the Company offers Services subject to the GDPR, the Company will comply with the requests of European Personal User Data Subject requests to the following. The User's access to their Personal User Data. The User having inaccurate, outdated, or unnecessary Personal User Data. Being rectified with amendments or deletion. In addition, to the stopping of using the User's Personal User Data in a particular way. If the User's use of the Company's Services or website is subject to GDPR. The User would also have a right to lodge a complaint with Your local EU regulator.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Modification Regulations Of Privacy Policy</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="modificationPrivacy">Company Modification Regulations Of Privacy Policy</h1>
         <p class="privacyPolicyHolderMainInfoContent">The Company reserves the right at its own sole discretion to amend this privacy policy at any given time. When the Company does make changes to this privacy policy, there will be posted an updated privacy policy on the Company's website. Along with the privacy policy's effective date being updated to the date of which the new privacy policy was posted to the Company's website. It is the User's responsibility to periodically review the Company's privacy policy to be up to date with any changes. The User's continued use of the Company's website following the posting of the new privacy policy constitutes the User's acceptance of the new modified privacy policy. If the User has any concerns or questions in regards to Your privacy in using the Company's website. Please, send the Company a detailed message to <a href="mailto:{{emailPrivacy}}" class="aMinusMargin">{{emailPrivacy}}</a>.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Special Disclosures</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="disclosuresPrivacy">Company Special Disclosures</h1>
         <p class="privacyPolicyHolderMainInfoContent"><span>Do Not Track Disclosure - </span>California and Delaware require websites accessible by Users based in those states to indicate whether the website respects Do Not Track browser settings. The Company follows the standards explained in this Privacy Policy agreement and does not interact with or implement Do Not Track requests.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
-        <h1 class="privacyPolicyHolderMainInfoTitle">Company Privacy Policy Effective Date</h1>
+        <h1 class="privacyPolicyHolderMainInfoTitle" id="datePrivacy">Company Privacy Policy Effective Date</h1>
         <p class="privacyPolicyHolderMainInfoContent">The last privacy policy modification was made {{effectiveDatePrivacy}}.</p>
       </div>
       <div class="privacyPolicyHolderMainInfo">
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">{{businessPrivacy}}</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="policyCaliforniaPrivacy">{{businessPrivacy}}</h1>
           <h1 class="privacyPolicyHolderMainInfoTitle marginLeftTwo">California Users Privacy Policy Notice</h1>
           <p class="privacyPolicyHolderMainInfoContent">This Privacy Policy Notice for California Consumers supplements the information contained in the Privacy Policy agreement of {{businessPrivacy}}. Which applies solely to all visitors, Users, and others who reside in the State of California. The Company adopts this Privacy Policy Notice to comply with the California Consumer Privacy Act of 2018 and any terms defined in the CCPA have the same meaning when used in this Privacy Policy Notice.</p>
           <p class="privacyPolicyHolderMainInfoContent">To the extent temporarily exempted from application of the CCPA. This Privacy Policy Notice does not apply to employment-related Personal User Data collected from California-based employees, job applicants, contractors, or any other similar individuals employment Personal User Data. Furthermore, it doesn't apply to Personal User Data reflecting a written or verbal business-to-business communication. Otherwise referenced as B2B Personal User Data. For clarity, to the extent required by California civil code 1798.100. This Privacy Policy Notice does apply to User employment Personal User Data in so far as the law requires disclosure at or before the point of collection. Relating to the categories of Personal User Data to be collected and the purposes for which the categories of Personal User Data shall be used.</p>
@@ -222,23 +222,23 @@
         </div>
         <!-- Fix routerLink destination for all a tags in the Table of Contents and Navigation Links ol -->
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero" id="privacyPolicyHolderMainInfoCali">
-          <h1 class="privacyPolicyHolderMainInfoTitle privacyPolicyHolderMainInfoTitleSpace">Table of Contents and Navigation Links</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle privacyPolicyHolderMainInfoTitleSpace" id="linksCaliforniaPrivacy">Table of Contents and Navigation Links</h1>
           <ul class="privacyPolicyHolderMainInfoTables">
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Company Privacy Policy Notice Statement and Effective Date</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Table of Contents and Navigation Links</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Privacy Policy Notice Definitions</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Company Accumulated Personal User Data</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Use Of Company Accumulated Personal User Data</a></li>
-            <li class="privacyPolicyHolderMainInfoContent privacyPolicyHolderMainInfoContentSpace"><a href="">Who Else Can Access Company Accumulated Personal User Data</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Accumulated Personal User Data Subject's Rights</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Other California User's Privacy Rights</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Company Modification Regulations Of Privacy Policy</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Company Contact Information</a></li>
-            <li class="privacyPolicyHolderMainInfoContent"><a href="">Cookie Policy Notice</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[0])">Company Privacy Policy Notice Statement and Effective Date</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[1])">Table of Contents and Navigation Links</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[2])">Privacy Policy Notice Definitions</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[3])">Company Accumulated Personal User Data</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[4])">Use Of Company Accumulated Personal User Data</a></li>
+            <li class="privacyPolicyHolderMainInfoContent privacyPolicyHolderMainInfoContentSpace"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[5])">Who Else Can Access Company Accumulated Personal User Data</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[6])">Accumulated Personal User Data Subject's Rights</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[7])">Other California User's Privacy Rights</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[8])">Company Modification Regulations Of Privacy Policy</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[9])">Company Contact Information</a></li>
+            <li class="privacyPolicyHolderMainInfoContent"><a (click)="toPrivacy($event, idArrayCaliforniaPrivacy[10])">Cookie Policy Notice</a></li>
           </ul>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Privacy Policy Notice Definitions</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="definitionsCaliforniaPrivacy">Privacy Policy Notice Definitions</h1>
           <p class="privacyPolicyHolderMainInfoContent">BOTH CAPITALIZATION OR LOWERCASE LEADING FORMS OF THE WORDS. WHICH ARE APPLIED TO ALL LISTED COMPANY DEFINITIONS AND USED IN THE MANNER DEFINED HERE WITHIN THE COMPANY'S PRIVACY POLICY DEFINITIONS SECTION.</p>
           <ul class="privacyPolicyHolderMainInfoTables">
             <li class="privacyPolicyHolderMainInfoContent"><span>We / Us / Our / Company - </span>{{businessPrivacy}}</li>
@@ -260,7 +260,7 @@
           </ul>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Company Accumulated Personal User Data</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="userDataCaliforniaPrivacy">Company Accumulated Personal User Data</h1>
           <p class="privacyPolicyHolderMainInfoContent">The Company collects Personal User Data that identifies, relates to, describes, references, is reasonably capable of being associated with, or could reasonably be linked. Directly as well as indirectly with a particular Consumer, User, household, or device. A User's Personal User Data does not included Personal User Data if expressed in detail not to be in this section below.</p>
           <ul class="privacyPolicyHolderMainInfoTables">
             <li class="privacyPolicyHolderMainInfoContent">The User's Personal User Data publicly available from government records.</li>
@@ -356,7 +356,7 @@
           </table>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Use Of Company Accumulated Personal User Data</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="companyDataCaliforniaPrivacy">Use Of Company Accumulated Personal User Data</h1>
           <p class="privacyPolicyHolderMainInfoContent">The Company may use or disclose the Personal User Data collected. For one or more of the following purposes.</p>
           <ul class="privacyPolicyHolderMainInfoTables">
             <li class="privacyPolicyHolderMainInfoContent">To fulfill or meet the reason the Consumer provided the Personal User Data. For example, if the Consumer shares the Consumer's name and contact information. For a requested price quote or asked a question. About the Company's products or services. The Company will use that Personal User Data to respond to the Consumer's inquiry. If the Consumer provides the Consumer's Personal User Data to purchase a product or service. The Company will use that Personal User Data to process the Consumer's payment and to facilitate delivery.</li>
@@ -374,7 +374,7 @@
           <p class="privacyPolicyHolderMainInfoContent">The Company will not collect additional categories of Personal User Data or use the Personal User Data. The Company collected for materially different, unrelated, or incompatible purposes without providing the Consumer's a notice.</p>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Sharing Personal Information</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="sharingDataCaliforniaPrivacy">Sharing Personal Information</h1>
           <p class="privacyPolicyHolderMainInfoContent">The Company may disclose the Consumer's Personal User Data to a third party for a business purpose. When the Company discloses Personal User Data for a business purpose. The Company enters a contract that describes the purpose and requires the recipient to keep that Personal User Data confidential. Furthermore, that the recipient not use the Personal User Data for any purpose except performing the contract.</p>
           <p class="privacyPolicyHolderMainInfoContent"><span>Disclosures of Personal Information for a Business Purpose</span></p>
           <p class="privacyPolicyHolderMainInfoContent">In the preceding 12 months, the Company has disclosed the following categories of Personal User Data for a business purpose.</p>
@@ -400,7 +400,7 @@
           <p class="privacyPolicyHolderMainInfoContent">In the preceding 12 months, the Company has not sold any of the Consumer's Personal User Data.</p>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">The Consumer's Rights and Choices</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="userRightsCaliforniaPrivacy">The Consumer's Rights and Choices</h1>
           <p class="privacyPolicyHolderMainInfoContent">The CCPA provides Consumers that are California residents with specific rights regarding their Personal User Data. This section describes the Consumer's CCPA rights and explains how to exercise those rights.</p>
           <p class="privacyPolicyHolderMainInfoContent"><span>The Consumer's Access to Specific Information and Data Portability Rights</span></p>
           <p class="privacyPolicyHolderMainInfoContent">The Consumer has the right to request that the Company disclose certain information to the Consumer. About the Company's collection and use of Your Personal User Data over the past 12 months. Once the Company receives and confirms Your verifiable consumer request. The Company will disclose to You the following.</p>
@@ -466,7 +466,7 @@
           </ul>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Other California Privacy Rights</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="otherRightsCaliforniaPrivacy">Other California Privacy Rights</h1>
           <p class="privacyPolicyHolderMainInfoContent">California's "Shine the Light" law, Civil Code Section § 1798.83. Permits Users of the Company's website that are California residents to request certain information. In regards to the Company's disclosure of Consumer's Personal User Data to third parties for their direct marketing purposes. If the Consumer would like to make such a request, please send an email to <a href="mailto:{{emailPrivacy}}" class="aMinusMargin">{{emailPrivacy}}.</a> or write to the Company's address listed below.</p>
           <p class="privacyPolicyHolderMainInfoContent">
             {{businessPrivacy}}<br>
@@ -476,11 +476,11 @@
           </p>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Changes to Our Privacy Notice</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="modificationCaliforniaPrivacy">Changes to Our Privacy Notice</h1>
           <p class="privacyPolicyHolderMainInfoContent">The Company reserves the right to amend this privacy notice at the Company's own discretion and at any given time. When the Company makes any changes to this privacy notice. The Company will post the updated privacy notice on the Company's website. In addition to updating the privacy notice's effective date. The Consumer's continued use of the Company's website following the posting of changes constitutes the Consumer's acceptance of such privacy notice changes.</p>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Contact Information</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="contactCaliforniaPrivacy">Contact Information</h1>
           <p class="privacyPolicyHolderMainInfoContent">If the Consumer has any questions or comments at all about any of the following matters. This privacy policy notice in general or a specific section. The ways in which the Company collects and uses the Consumer's Personal User Data that are described herein the privacy policy notice. The Consumer's choices and rights regarding such use of the Consumer's Personal User Data. The Consumer's wish to exercise any of the Consumer's rights under California law. Please, do not hesitate to contact the Company at any of the listed means.</p>
           <p class="privacyPolicyHolderMainInfoContent"><span>Phone Number: </span><br class="hiddenBr"><a href="tel:{{phonePrivacy}}">{{phoneDisplayPrivacy}}</a></p>
           <p class="privacyPolicyHolderMainInfoContent"><span>Email Address: </span><br class="hiddenBr"><a href="mailto:{{emailPrivacy}}" class="aMinusMargin">{{emailPrivacy}}.</a></p>
@@ -492,7 +492,7 @@
           </p>
         </div>
         <div class="privacyPolicyHolderMainInfo privacyPolicyHolderMainInfoTwoZero">
-          <h1 class="privacyPolicyHolderMainInfoTitle">Cookie Notice</h1>
+          <h1 class="privacyPolicyHolderMainInfoTitle" id="cookieCaliforniaPrivacy">Cookie Notice</h1>
           <p class="privacyPolicyHolderMainInfoContent"><span>1. About This Cookie Notice</span></p>
           <p class="privacyPolicyHolderMainInfoContent">This cookie notice applies when the Consumer uses any of the Company's Services that refer or link to this cookie notice. This cookie notice may be supplemented by additional cookie notices on the Company's website. In addition to terms and conditions provided on specific areas of the Company's website, Services, or otherwise during the Company's interactions with the Consumer. Along with the exception to the cookies that are set by third parties. The company that owns or otherwise administers the Service. As identified therein is the primary controller of the Consumer's Personal User Data provided to, collected by, or collected for the Service. This Cookie Notice is subject to the Company's Privacy Policy. In addition to the Company's Terms and Conditions of Use Agreement.</p>
           <p class="privacyPolicyHolderMainInfoContent"><span>2. What Are Cookies and Why Does The Company Use Them?</span></p>

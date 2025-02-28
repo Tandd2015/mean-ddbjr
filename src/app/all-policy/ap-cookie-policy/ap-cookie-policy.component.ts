@@ -6,10 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./ap-cookie-policy.component.css']
 })
 export class ApCookiePolicyComponent {
-  public thisSite: string = 'this website';
-  public thisSiteC: string = 'This Website';
+  public siteCookie: string = 'this website';
+  public businessCookie: string = 'This Website';
   public effectiveDateCookie: string = '02-11-2025';
 
+  public idArrayCookie: string[] = ["policyCookie", "whatCookie", "howCookie", "typeCookie", "controlCookie", "dateCookie"];
 
-  constructor() { };
+  constructor() {};
+  public toCookie(navClick: Event, id: string): void {
+    navClick.preventDefault();
+    document.getElementById(`${id}`)?.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  };
 }
